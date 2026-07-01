@@ -1,16 +1,17 @@
-# Home Paradise Landing
+# Home Paradise Landing Premium
 
-Archivos de una landing page estática para reclutamiento comercial.
+Landing oficial de reclutamiento para Home Paradise SAS.
 
-## Antes de publicar
-1. Reemplaza el enlace del iframe de Google Forms en `index.html`.
-2. Cambia el WhatsApp `573000000000` por tu número real.
-3. Cambia el correo si tu correo corporativo es diferente.
-4. Cambia las imágenes dentro de `/images` por fotos reales o de banco.
+## Datos configurados
 
-## Imágenes necesarias
-- `hero-office.jpg`
-- `training.jpg`
-- `meeting.jpg`
-- `institutional.jpg`
-- `og-home-paradise.jpg`
+- Slogan: Construyendo con propósito
+- Cargo: Ejecutivo Comercial
+- WhatsApp: +57 311 210 0991
+- Correo: talento@homeparadise.com
+- Dominio: homeparadise.com.co
+
+## Pendiente
+
+1. Reemplazar el bloque de formulario por el iframe de Google Forms.
+2. Cambiar las fotografías de banco por fotos propias cuando estén disponibles.
+3. Publicar en Cloudflare Pages.
