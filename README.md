@@ -1,5 +1,11 @@
-# Home Paradise Landing V1
+# Home Paradise Landing V2
 
-Landing provisional de reclutamiento para Home Paradise.
+Landing provisional premium para reclutamiento de Ejecutivos Comerciales.
 
-Formulario conectado con FormSubmit hacia talento@homeparadise.com.co. La primera vez FormSubmit enviará un correo de activación a esa cuenta.
+## Archivos
+- index.html
+- styles.css
+- script.js
+- assets/images/logo-home-paradise.png
+
+Formulario conectado con FormSubmit a talento@homeparadise.com.co.

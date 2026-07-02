@@ -1,168 +1,213 @@
 <!doctype html>
-<html lang="es">
+<html lang="es-CO">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home Paradise Talento | Construye una carrera comercial con propósito</title>
-  <meta name="description" content="Postúlate como Ejecutivo Comercial en Home Paradise. Formación, mentoría, crecimiento profesional y esquema de compensación basado en resultados." />
-  <meta property="og:title" content="Home Paradise Talento" />
-  <meta property="og:description" content="Construye una carrera comercial con propósito. Aplica hoy como Ejecutivo Comercial." />
-  <meta property="og:type" content="website" />
-  <meta name="theme-color" content="#071c3b" />
-  <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Postúlate como Ejecutivo Comercial en Home Paradise. Capacitación, acompañamiento, crecimiento profesional y esquema de compensación basado en resultados.">
+  <meta name="theme-color" content="#0B2A55">
+  <meta property="og:title" content="Home Paradise Talento">
+  <meta property="og:description" content="Construye una carrera comercial con propósito.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/logo-home-paradise.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="Home Paradise">
-      <img src="assets/images/logo-home-paradise.png" alt="Home Paradise" />
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Home Paradise">
+      <img src="assets/images/logo-home-paradise.png" alt="Home Paradise" class="brand-logo">
     </a>
-    <nav class="nav" id="nav">
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegación principal">
       <a href="#oportunidad">Oportunidad</a>
       <a href="#funciones">Funciones</a>
       <a href="#proceso">Proceso</a>
       <a href="#postulate">Contacto</a>
+      <a class="nav-cta" href="#postulate">Aplicar ahora</a>
     </nav>
-    <a class="btn btn-small" href="#postulate">Aplicar ahora</a>
-    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
   </header>
 
   <main>
-    <section class="hero" id="inicio">
-      <div class="hero-overlay"></div>
-      <div class="hero-content reveal">
-        <span class="eyebrow">Home Paradise Talento</span>
-        <h1>Construye una carrera comercial con propósito.</h1>
-        <p>Buscamos personas con actitud comercial, ganas de crecer y desarrollar una carrera profesional dentro de Home Paradise.</p>
-        <div class="hero-actions">
-          <a class="btn" href="#postulate">Aplicar ahora</a>
-          <a class="btn btn-secondary" href="#oportunidad">Conocer la oportunidad</a>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Home Paradise Talento</p>
+          <h1>Construye una carrera comercial con propósito.</h1>
+          <p class="hero-text">Buscamos personas con actitud comercial, ganas de crecer y desarrollar una carrera profesional dentro de Home Paradise.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#postulate">Aplicar ahora</a>
+            <a class="btn btn-secondary" href="#oportunidad">Conocer la oportunidad</a>
+          </div>
+        </div>
+        <div class="hero-card reveal delay-1">
+          <span class="card-label">Ejecutivo Comercial</span>
+          <h2>Formación, acompañamiento y crecimiento.</h2>
+          <p>Un proceso diseñado para potenciar habilidades comerciales y desarrollar liderazgo con disciplina.</p>
+          <div class="mini-stats">
+            <div><strong>10+</strong><span>años de experiencia</span></div>
+            <div><strong>Bogotá</strong><span>Av. Suba #105-51</span></div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section intro" id="oportunidad">
-      <div class="container grid-2">
-        <div class="reveal">
-          <span class="eyebrow dark">¿Quiénes somos?</span>
-          <h2>Una empresa enfocada en formar talento comercial.</h2>
-          <p>Home Paradise es una distribuidora de utensilios de alta gama con más de 10 años de experiencia en Colombia. Nuestro objetivo es capacitar ejecutivos y potencializar sus habilidades hasta formar empresarios de alto nivel.</p>
+      <div class="container split">
+        <div class="section-copy reveal">
+          <p class="eyebrow dark">Nuestra empresa</p>
+          <h2>Una oportunidad comercial con estructura y acompañamiento.</h2>
+          <p>Home Paradise es una distribuidora de utensilios de alta gama con más de 10 años de experiencia en Colombia. Nuestro objetivo es capacitar ejecutivos y potencializar sus habilidades hasta llegar a formar empresarios de alto nivel.</p>
         </div>
-        <div class="stats-card reveal">
-          <div><strong>10+</strong><span>años de experiencia</span></div>
-          <div><strong>4</strong><span>pasos de selección</span></div>
-          <div><strong>1</strong><span>equipo con propósito</span></div>
+        <div class="glass-panel reveal delay-1">
+          <h3>¿Por qué unirte?</h3>
+          <ul class="check-list">
+            <li>Capacitación permanente.</li>
+            <li>Mentoría personalizada.</li>
+            <li>Plan de crecimiento interno.</li>
+            <li>Cultura comercial orientada a procesos.</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section class="section cards-section">
       <div class="container">
-        <div class="section-heading reveal">
-          <span class="eyebrow dark">Por qué unirte</span>
-          <h2>Crecimiento, formación y acompañamiento.</h2>
+        <div class="section-head reveal">
+          <p class="eyebrow dark">Beneficios</p>
+          <h2>Crece en un entorno diseñado para desarrollar talento comercial.</h2>
         </div>
         <div class="cards">
-          <article class="card reveal"><div class="icon">↗</div><h3>Desarrollo profesional</h3><p>Capacitación permanente y acompañamiento para fortalecer tus habilidades comerciales.</p></article>
-          <article class="card reveal"><div class="icon">◆</div><h3>Compensación competitiva</h3><p>Esquema basado en resultados, bonificaciones y oportunidades de crecimiento por desempeño.</p></article>
-          <article class="card reveal"><div class="icon">◎</div><h3>Cultura de equipo</h3><p>Trabaja junto a personas comprometidas con la disciplina, el aprendizaje continuo y la excelencia.</p></article>
+          <article class="feature-card reveal">
+            <span class="icon">↗</span>
+            <h3>Desarrollo profesional</h3>
+            <p>Capacitación constante y acompañamiento para fortalecer tus habilidades comerciales.</p>
+          </article>
+          <article class="feature-card reveal delay-1">
+            <span class="icon">◆</span>
+            <h3>Compensación competitiva</h3>
+            <p>Esquema basado en resultados, con oportunidades de crecimiento, bonificaciones y reconocimientos.</p>
+          </article>
+          <article class="feature-card reveal delay-2">
+            <span class="icon">☑</span>
+            <h3>Cultura de equipo</h3>
+            <p>Trabaja con personas comprometidas con la disciplina, el aprendizaje y la excelencia.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section feature" id="funciones">
-      <div class="container grid-2 align-center">
-        <div class="photo-card reveal"></div>
-        <div class="reveal">
-          <span class="eyebrow dark">Ejecutivo Comercial</span>
-          <h2>¿Qué harás?</h2>
-          <ul class="checklist">
+    <section class="section functions" id="funciones">
+      <div class="container split reverse">
+        <div class="visual-card reveal">
+          <div class="office-visual">
+            <div class="screen-card">HOME PARADISE<br><span>Construyendo con propósito</span></div>
+          </div>
+        </div>
+        <div class="section-copy reveal delay-1">
+          <p class="eyebrow dark">Qué harás</p>
+          <h2>Funciones claras desde el primer día.</h2>
+          <ul class="large-list">
             <li>Contactar clientes potenciales.</li>
             <li>Realizar demostraciones de producto.</li>
-            <li>Brindar asesoría personalizada.</li>
-            <li>Cerrar ventas y hacer seguimiento.</li>
+            <li>Cerrar ventas y dar seguimiento.</li>
             <li>Asistir a capacitaciones comerciales.</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section class="section benefits">
-      <div class="container grid-2">
-        <div class="reveal">
-          <span class="eyebrow dark">Beneficios</span>
-          <h2>Una oportunidad diseñada para personas con mentalidad de crecimiento.</h2>
-        </div>
-        <div class="benefit-list reveal">
-          <p>Capacitación continua</p><p>Mentoría personalizada</p><p>Excelente ambiente de trabajo</p><p>Plan de crecimiento interno</p><p>Compensación por resultados</p><p>Bonificaciones por objetivos</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section profile">
+    <section class="section fit">
       <div class="container">
-        <div class="section-heading reveal">
-          <span class="eyebrow dark">Perfil</span>
-          <h2>Esta oportunidad es para ti si tienes:</h2>
-        </div>
-        <div class="pill-grid reveal">
-          <span>Comunicación efectiva</span><span>Buena presentación</span><span>Actitud comercial</span><span>Disciplina</span><span>Compromiso</span><span>Ganas de aprender</span><span>Capacidad para seguir procesos</span>
+        <div class="fit-box reveal">
+          <div>
+            <p class="eyebrow dark">Perfil</p>
+            <h2>Esta oportunidad es para ti si quieres crecer.</h2>
+          </div>
+          <div class="pill-grid">
+            <span>Comunicación efectiva</span>
+            <span>Buena presentación</span>
+            <span>Ganas de aprender</span>
+            <span>Disciplina</span>
+            <span>Compromiso</span>
+            <span>Seguir procesos</span>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section process" id="proceso">
       <div class="container">
-        <div class="section-heading reveal"><span class="eyebrow dark">Proceso</span><h2>Simple, claro y profesional.</h2></div>
-        <div class="steps">
-          <div class="step reveal"><b>01</b><h3>Postúlate</h3><p>Completa tus datos y adjunta tu hoja de vida.</p></div>
-          <div class="step reveal"><b>02</b><h3>Revisamos tu perfil</h3><p>Nuestro equipo evalúa tu información.</p></div>
-          <div class="step reveal"><b>03</b><h3>Entrevista presencial</h3><p>Conoces la empresa y la oportunidad.</p></div>
-          <div class="step reveal"><b>04</b><h3>Inicia tu proceso</h3><p>Comienzas tu formación comercial.</p></div>
+        <div class="section-head reveal">
+          <p class="eyebrow dark">Proceso</p>
+          <h2>Cuatro pasos simples para iniciar.</h2>
+        </div>
+        <div class="timeline">
+          <div class="step reveal"><span>01</span><h3>Postúlate</h3><p>Completa tus datos y adjunta tu hoja de vida.</p></div>
+          <div class="step reveal delay-1"><span>02</span><h3>Revisamos tu perfil</h3><p>Nuestro equipo evalúa tu información.</p></div>
+          <div class="step reveal delay-2"><span>03</span><h3>Entrevista presencial</h3><p>Conoce la oportunidad y el proceso comercial.</p></div>
+          <div class="step reveal delay-3"><span>04</span><h3>Inicia tu proceso</h3><p>Comienza tu formación dentro de Home Paradise.</p></div>
         </div>
       </div>
     </section>
 
     <section class="section apply" id="postulate">
-      <div class="container grid-2 align-start">
+      <div class="container apply-grid">
         <div class="apply-copy reveal">
-          <span class="eyebrow">Postulación</span>
+          <p class="eyebrow">Postúlate ahora</p>
           <h2>Da el primer paso hacia tu crecimiento profesional.</h2>
-          <p>Completa tus datos y adjunta tu hoja de vida. Si tu perfil se ajusta a la oportunidad, nos comunicaremos contigo para continuar el proceso.</p>
-          <div class="contact-box">
-            <p><strong>Dirección:</strong> Av. Suba #105-51, Bogotá</p>
-            <p><strong>Horario:</strong> L-V 8:00 a.m. - 6:00 p.m. / Sábados 8:00 a.m. - 12:00 p.m.</p>
+          <p>Completa tus datos y adjunta tu hoja de vida. Nuestro equipo revisará tu perfil y, si se ajusta a la oportunidad, nos pondremos en contacto contigo.</p>
+          <div class="contact-card">
             <p><strong>Correo:</strong> talento@homeparadise.com.co</p>
             <p><strong>WhatsApp:</strong> +57 311 210 0991</p>
+            <p><strong>Dirección:</strong> Av. Suba #105-51, Bogotá</p>
+            <p><strong>Horario:</strong> L-V 8:00 a.m. - 6:00 p.m. · Sábados 8:00 a.m. - 12:00 p.m.</p>
           </div>
         </div>
-        <form class="apply-form reveal" action="https://formsubmit.co/talento@homeparadise.com.co" method="POST" enctype="multipart/form-data">
-          <input type="hidden" name="_subject" value="Nueva postulación - Home Paradise" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_template" value="table" />
+        <form class="apply-form reveal delay-1" action="https://formsubmit.co/talento@homeparadise.com.co" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="Nueva postulación Home Paradise">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
           <div class="form-row">
-            <label>Nombre<input required name="Nombre" type="text" placeholder="Tu nombre" /></label>
-            <label>Apellidos<input required name="Apellidos" type="text" placeholder="Tus apellidos" /></label>
+            <label>Nombre<input type="text" name="nombre" required></label>
+            <label>Apellidos<input type="text" name="apellidos" required></label>
           </div>
-          <label>Correo electrónico<input required name="Correo" type="email" placeholder="correo@ejemplo.com" /></label>
-          <label>Celular<input required name="Celular" type="tel" placeholder="300 000 0000" /></label>
-          <label>Hoja de vida<input required name="Hoja de vida" type="file" accept=".pdf,.doc,.docx" /></label>
-          <button class="btn form-btn" type="submit">Aplicar ahora</button>
-          <small>Al enviar aceptas ser contactado por Home Paradise para continuar el proceso de selección.</small>
+          <label>Correo electrónico<input type="email" name="correo" required></label>
+          <label>Celular<input type="tel" name="celular" required></label>
+          <label>Adjunta tu hoja de vida<input type="file" name="attachment" accept=".pdf,.doc,.docx" required></label>
+          <button class="btn btn-primary form-btn" type="submit">Aplicar ahora</button>
+          <p class="form-note">Al enviar tu postulación aceptas ser contactado por Home Paradise para continuar el proceso.</p>
         </form>
       </div>
     </section>
   </main>
 
+  <a class="whatsapp" href="https://wa.me/573112100991?text=Hola,%20quiero%20postularme%20a%20Home%20Paradise" target="_blank" rel="noopener">WhatsApp</a>
+
   <footer class="footer">
-    <div class="container footer-inner">
-      <img src="assets/images/logo-home-paradise.png" alt="Home Paradise" />
-      <p>Construyendo con propósito.</p>
-      <a href="https://www.instagram.com/homeparadisetalent" target="_blank" rel="noopener">@homeparadisetalent</a>
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/images/logo-home-paradise.png" alt="Home Paradise" class="footer-logo">
+        <p>Construyendo con propósito.</p>
+      </div>
+      <div>
+        <h4>Home Paradise Talento</h4>
+        <a href="#oportunidad">Oportunidad</a>
+        <a href="#funciones">Funciones</a>
+        <a href="#proceso">Proceso</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p>talento@homeparadise.com.co</p>
+        <p>+57 311 210 0991</p>
+        <p>@homeparadisetalent</p>
+      </div>
     </div>
   </footer>
 
-  <a class="whatsapp" href="https://wa.me/573112100991?text=Hola,%20quiero%20postularme%20a%20Home%20Paradise" target="_blank" rel="noopener">WhatsApp</a>
   <script src="script.js"></script>
 </body>
 </html>
