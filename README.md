@@ -1,13 +1,15 @@
-# Home Paradise Landing V4
+# Home Paradise Landing V5
 
-Landing estilo Living Paradise para reclutamiento de Ejecutivos Comerciales.
+Landing final provisional para reclutamiento de Ejecutivos Comerciales.
 
 ## Archivos
 - index.html
 - styles.css
 - script.js
 - logo-home-paradise.png
+- assets/images/hero-team.png
+- assets/images/demo.png
+- assets/images/office.png
+- assets/images/growth.png
 
-## Formulario
-Conectado con FormSubmit hacia talento@homeparadise.com.co.
-La primera vez debes confirmar el correo de activación de FormSubmit.
+Formulario conectado con FormSubmit a talento@homeparadise.com.co.
