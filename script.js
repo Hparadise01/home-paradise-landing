@@ -1,9 +1,1 @@
-const header = document.querySelector('.site-header');
-
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 12) {
-    header.style.boxShadow = '0 12px 40px rgba(7, 26, 51, 0.08)';
-  } else {
-    header.style.boxShadow = 'none';
-  }
-});
+const menuBtn=document.getElementById('menuBtn');const nav=document.getElementById('nav');menuBtn?.addEventListener('click',()=>nav.classList.toggle('open'));document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));const io=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('active')})},{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));

@@ -1,17 +1,5 @@
-# Home Paradise Landing Premium
+# Home Paradise Landing V1
 
-Landing oficial de reclutamiento para Home Paradise SAS.
+Landing provisional de reclutamiento para Home Paradise.
 
-## Datos configurados
-
-- Slogan: Construyendo con propósito
-- Cargo: Ejecutivo Comercial
-- WhatsApp: +57 311 210 0991
-- Correo: talento@homeparadise.com
-- Dominio: homeparadise.com.co
-
-## Pendiente
-
-1. Reemplazar el bloque de formulario por el iframe de Google Forms.
-2. Cambiar las fotografías de banco por fotos propias cuando estén disponibles.
-3. Publicar en Cloudflare Pages.
+Formulario conectado con FormSubmit hacia talento@homeparadise.com.co. La primera vez FormSubmit enviará un correo de activación a esa cuenta.
