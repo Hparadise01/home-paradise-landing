@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Home Paradise Talento | Construye una carrera comercial</title>
-  <meta name="description" content="Postúlate como Ejecutivo Comercial en Home Paradise. Formación, acompañamiento, crecimiento profesional y compensación basada en resultados." />
-  <meta name="theme-color" content="#0B2A55" />
-  <meta property="og:title" content="Home Paradise Talento" />
-  <meta property="og:description" content="Construye una carrera comercial con formación, acompañamiento y proyección real." />
+  <title>Home Paradise | Ejecutivos Comerciales</title>
+  <meta name="description" content="Postúlate como Ejecutivo Comercial en Home Paradise. Formación, acompañamiento y proyección profesional en Bogotá." />
+  <meta name="theme-color" content="#082A55" />
+  <meta property="og:title" content="Home Paradise | Construye una carrera comercial" />
+  <meta property="og:description" content="Únete a Home Paradise como Ejecutivo Comercial. Formación, acompañamiento y crecimiento profesional." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="logo-home-paradise.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,168 +16,161 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Home Paradise">
-      <img src="logo-home-paradise.png" alt="Home Paradise" class="brand-logo" />
+  <header class="site-header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Home Paradise">
+      <img src="logo-home-paradise.png" alt="Home Paradise" />
     </a>
 
-    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
 
     <nav class="nav" aria-label="Navegación principal">
-      <a href="#top" class="active">Inicio</a>
+      <a class="active" href="#inicio">Inicio</a>
       <a href="#oportunidad">Oportunidad</a>
       <a href="#funciones">Funciones</a>
       <a href="#proceso">Proceso</a>
       <a href="#nosotros">Nosotros</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#postulate">Contacto</a>
     </nav>
 
     <a class="header-cta" href="#postulate">Postúlate ahora <span>→</span></a>
   </header>
 
   <main>
-    <section class="hero section-shell">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Home Paradise · Crecimiento comercial · Expansión</p>
-        <h1>Construye una carrera comercial con <span>formación</span>, acompañamiento y <span>proyección real.</span></h1>
-        <p class="hero-text">En Home Paradise estamos en proceso de expansión y buscamos personas con actitud, disciplina y deseo real de crecer. Esta oportunidad está pensada para quienes quieren desarrollarse en el área comercial dentro de un entorno serio, bien guiado y orientado a resultados.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#postulate">Postúlate ahora <span>→</span></a>
-          <a class="btn secondary" href="#oportunidad">Conocer la oportunidad <span>→</span></a>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">POSTÚLATE AHORA</p>
+        <h1>Da el primer paso hacia tu <span>crecimiento profesional.</span></h1>
+        <p class="lead">Completa tus datos y adjunta tu hoja de vida. Nuestro equipo revisará tu perfil y, si se ajusta a la oportunidad, nos pondremos en contacto contigo.</p>
+
+        <div class="contact-card">
+          <p><span>✉</span><strong>Correo:</strong> talento@homeparadise.com.co</p>
+          <p><span>☏</span><strong>WhatsApp:</strong> +57 311 210 0991</p>
+          <p><span>⌖</span><strong>Dirección:</strong> Av. Suba #105-51, Bogotá</p>
+          <p><span>◷</span><strong>Horario:</strong> Lunes a viernes 8:00 a.m. - 6:00 p.m.<br><em>Sábados 8:00 a.m. - 12:00 p.m.</em></p>
         </div>
       </div>
 
-      <div class="hero-visual reveal delay-1" aria-label="Equipo comercial en capacitación">
-        <div class="hero-photo"></div>
-        <div class="hero-badge">
-          <strong>Home Paradise Talento</strong>
-          <span>Construyendo con propósito</span>
+      <div class="hero-media" aria-label="Equipo comercial Home Paradise">
+        <div class="photo photo-large">
+          <img src="logo-home-paradise.png" alt="Home Paradise" class="photo-logo" />
+        </div>
+        <div class="photo-row">
+          <div class="photo photo-small one"></div>
+          <div class="photo photo-small two"></div>
         </div>
       </div>
+
+      <aside class="apply-card" id="postulate">
+        <h2>Postúlate como <span>Ejecutivo Comercial</span></h2>
+        <form action="https://formsubmit.co/talento@homeparadise.com.co" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="Nueva postulación - Home Paradise" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+
+          <div class="form-grid">
+            <label>Nombres<input name="nombres" type="text" required /></label>
+            <label>Apellidos<input name="apellidos" type="text" required /></label>
+          </div>
+          <label>Correo electrónico<input name="correo" type="email" required /></label>
+          <label>Celular<input name="celular" type="tel" required /></label>
+          <label>Adjunta tu hoja de vida<input class="file-input" name="attachment" type="file" accept=".pdf,.doc,.docx" required /></label>
+          <button type="submit">Aplicar ahora</button>
+          <p class="fineprint">Al enviar tu postulación aceptas ser contactado por Home Paradise para continuar el proceso.</p>
+        </form>
+      </aside>
     </section>
 
-    <section class="feature-strip section-shell" id="oportunidad">
-      <article class="feature-card reveal">
-        <div class="feature-icon">⌁</div>
+    <section class="benefits" id="oportunidad">
+      <article class="benefit-card">
+        <div class="icon">▱</div>
         <div>
           <h3>Formación estructurada</h3>
           <p>Desarrolla habilidades comerciales con una ruta clara de aprendizaje y acompañamiento.</p>
         </div>
-        <span class="card-arrow">→</span>
+        <span class="arrow">→</span>
       </article>
-      <article class="feature-card reveal delay-1">
-        <div class="feature-icon">↗</div>
+      <article class="benefit-card">
+        <div class="icon">↗</div>
         <div>
           <h3>Proyección interna</h3>
           <p>Crece dentro de un entorno orientado a resultados, ejecución y desarrollo profesional.</p>
         </div>
-        <span class="card-arrow">→</span>
+        <span class="arrow">→</span>
       </article>
-      <article class="feature-card reveal delay-2">
-        <div class="feature-icon">◇</div>
+      <article class="benefit-card">
+        <div class="icon">◇</div>
         <div>
           <h3>Marca con respaldo</h3>
-          <p>Haz parte de una propuesta seria, organizada y enfocada en experiencia y posicionamiento.</p>
+          <p>Haz parte de una propuesta seria, organizada y enfocada en experiencia, bienestar y posicionamiento.</p>
         </div>
-        <span class="card-arrow">→</span>
+        <span class="arrow">→</span>
       </article>
     </section>
 
-    <section class="section section-shell split" id="nosotros">
-      <div class="split-copy reveal">
-        <p class="section-kicker">¿Por qué Home Paradise?</p>
-        <h2>Mucho más que un trabajo, una oportunidad para crecer.</h2>
-        <p>Home Paradise es una distribuidora de utensilios de alta gama con más de 10 años de experiencia en Colombia. Nuestro objetivo es capacitar ejecutivos y potencializar sus habilidades hasta llegar a formar empresarios de alto nivel.</p>
-      </div>
-      <div class="benefit-grid reveal delay-1">
-        <div class="mini-card"><strong>Capacitación continua</strong><span>Aprendizaje comercial constante.</span></div>
-        <div class="mini-card"><strong>Mentoría personalizada</strong><span>Acompañamiento en el proceso.</span></div>
-        <div class="mini-card"><strong>Crecimiento interno</strong><span>Avance según desempeño.</span></div>
-        <div class="mini-card"><strong>Reconocimiento</strong><span>Bonos y estímulos por resultados.</span></div>
-      </div>
-    </section>
-
-    <section class="section section-shell role" id="funciones">
-      <div class="role-card reveal">
-        <p class="section-kicker">El rol que transforma</p>
+    <section class="split" id="funciones">
+      <div>
+        <p class="section-kicker">EL ROL QUE TRANSFORMA</p>
         <h2>Sé parte de nuestra fuerza comercial.</h2>
-        <p>Como Ejecutivo Comercial serás clave en la construcción de relaciones de confianza, asesoría personalizada y seguimiento comercial.</p>
+        <p>Como Ejecutivo Comercial en Home Paradise tendrás una ruta clara para desarrollar tus capacidades, atender clientes, realizar demostraciones y avanzar con acompañamiento constante.</p>
         <ul class="check-list">
           <li>Contactar clientes potenciales.</li>
           <li>Realizar demostraciones de producto.</li>
-          <li>Brindar asesoría personalizada.</li>
-          <li>Cerrar ventas y dar seguimiento.</li>
+          <li>Dar seguimiento comercial.</li>
           <li>Asistir a capacitaciones.</li>
+          <li>Cerrar oportunidades de venta.</li>
         </ul>
       </div>
-      <div class="role-image reveal delay-1">
-        <div class="office-panel">
-          <img src="logo-home-paradise.png" alt="Home Paradise" />
-          <span>Construyendo con propósito</span>
-        </div>
+      <div class="image-panel training-panel">
+        <img src="logo-home-paradise.png" alt="Home Paradise" />
       </div>
     </section>
 
-    <section class="section process" id="proceso">
-      <div class="section-shell">
-        <div class="center-head reveal">
-          <p class="section-kicker">Nuestro proceso</p>
-          <h2>Claro, corto y profesional.</h2>
-        </div>
-        <div class="steps">
-          <div class="step reveal"><span>01</span><h3>Postúlate</h3><p>Completa tus datos y adjunta tu hoja de vida.</p></div>
-          <div class="step reveal delay-1"><span>02</span><h3>Revisamos tu perfil</h3><p>Evaluamos tu información y experiencia.</p></div>
-          <div class="step reveal delay-2"><span>03</span><h3>Entrevista presencial</h3><p>Conoce la oportunidad y nuestro proceso.</p></div>
-          <div class="step reveal delay-3"><span>04</span><h3>Inicia tu proceso</h3><p>Comienza tu formación comercial.</p></div>
-        </div>
+    <section class="process" id="proceso">
+      <p class="section-kicker">PROCESO SIMPLE</p>
+      <h2>Postúlate en minutos y avanza paso a paso.</h2>
+      <div class="steps">
+        <div><strong>01</strong><h3>Postúlate</h3><p>Completa tus datos y adjunta tu hoja de vida.</p></div>
+        <div><strong>02</strong><h3>Revisamos tu perfil</h3><p>Nuestro equipo valida tu información.</p></div>
+        <div><strong>03</strong><h3>Entrevista presencial</h3><p>Conoce la oportunidad y el proceso.</p></div>
+        <div><strong>04</strong><h3>Inicia tu proceso</h3><p>Empieza tu etapa de formación comercial.</p></div>
       </div>
     </section>
 
-    <section class="apply section-shell" id="postulate">
-      <div class="apply-copy reveal" id="contacto">
-        <p class="eyebrow light">Postúlate ahora</p>
-        <h2>Da el primer paso hacia tu crecimiento profesional.</h2>
-        <p>Completa tus datos y adjunta tu hoja de vida. Nuestro equipo revisará tu perfil y, si se ajusta a la oportunidad, nos pondremos en contacto contigo.</p>
-        <div class="contact-box">
-          <p><strong>Correo:</strong> talento@homeparadise.com.co</p>
-          <p><strong>WhatsApp:</strong> +57 311 210 0991</p>
-          <p><strong>Dirección:</strong> Av. Suba #105-51, Bogotá</p>
-          <p><strong>Horario:</strong> L - V 8:00 a.m. - 6:00 p.m. · Sábados 8:00 a.m. - 12:00 p.m.</p>
-        </div>
+    <section class="about" id="nosotros">
+      <div>
+        <p class="section-kicker">HOME PARADISE</p>
+        <h2>Construyendo con propósito.</h2>
+        <p>Home Paradise es una distribuidora de utensilios de alta gama con más de 10 años de experiencia en Colombia. Nuestro objetivo es capacitar ejecutivos y potencializar sus habilidades hasta formar empresarios comerciales de alto nivel.</p>
       </div>
-
-      <form class="apply-form reveal delay-1" action="https://formsubmit.co/talento@homeparadise.com.co" method="POST" enctype="multipart/form-data">
-        <input type="hidden" name="_subject" value="Nueva postulación Home Paradise" />
-        <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_template" value="table" />
-        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
-        <h3>Postúlate como <span>Ejecutivo Comercial</span></h3>
-        <div class="form-row">
-          <label>Nombres<input type="text" name="Nombres" required /></label>
-          <label>Apellidos<input type="text" name="Apellidos" required /></label>
-        </div>
-        <label>Correo electrónico<input type="email" name="Correo" required /></label>
-        <label>Celular<input type="tel" name="Celular" required /></label>
-        <label>Adjunta tu hoja de vida<input type="file" name="Hoja de vida" accept=".pdf,.doc,.docx" required /></label>
-        <button type="submit">Aplicar ahora</button>
-        <p class="form-note">Al enviar tu postulación aceptas ser contactado por Home Paradise para continuar el proceso.</p>
-      </form>
+      <a class="secondary-cta" href="#postulate">Aplicar ahora →</a>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="section-shell footer-grid">
-      <div>
-        <img src="logo-home-paradise.png" alt="Home Paradise" class="footer-logo" />
-        <p>Construyendo con propósito.</p>
-        <div class="socials"><a href="https://www.instagram.com/homeparadisetalent" target="_blank" rel="noreferrer">IG</a><a href="#">FB</a><a href="#">IN</a></div>
-      </div>
-      <div><h4>Navegación</h4><a href="#oportunidad">Oportunidad</a><a href="#funciones">Funciones</a><a href="#proceso">Proceso</a><a href="#contacto">Contacto</a></div>
-      <div><h4>Contacto</h4><p>talento@homeparadise.com.co</p><p>+57 311 210 0991</p><p>Av. Suba #105-51, Bogotá</p><p>L - V 8:00 a.m. - 6:00 p.m.<br>Sábados 8:00 a.m. - 12:00 p.m.</p></div>
+    <div>
+      <img src="logo-home-paradise.png" alt="Home Paradise" />
+      <p>Construyendo con propósito.</p>
+      <p class="social">Instagram: @homeparadisetalent</p>
+    </div>
+    <div>
+      <h4>Navegación</h4>
+      <a href="#oportunidad">Oportunidad</a>
+      <a href="#funciones">Funciones</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#nosotros">Nosotros</a>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <p>talento@homeparadise.com.co</p>
+      <p>+57 311 210 0991</p>
+      <p>Av. Suba #105-51, Bogotá</p>
+      <p>Lunes a viernes 8:00 a.m. - 6:00 p.m.</p>
+      <p>Sábados 8:00 a.m. - 12:00 p.m.</p>
     </div>
   </footer>
 
-  <a class="whatsapp" href="https://wa.me/573112100991?text=Hola,%20quiero%20postularme%20a%20Home%20Paradise" target="_blank" rel="noreferrer">WhatsApp</a>
+  <a class="wa" href="https://wa.me/573112100991?text=Hola,%20quiero%20postularme%20como%20Ejecutivo%20Comercial%20en%20Home%20Paradise" target="_blank" rel="noopener">WhatsApp</a>
   <script src="script.js"></script>
 </body>
 </html>

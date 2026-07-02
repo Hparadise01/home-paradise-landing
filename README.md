@@ -1,6 +1,6 @@
-# Home Paradise Landing V3
+# Home Paradise Landing V4
 
-Landing provisional estilo Living Paradise, adaptada a Home Paradise.
+Landing estilo Living Paradise para reclutamiento de Ejecutivos Comerciales.
 
 ## Archivos
 - index.html
@@ -8,4 +8,6 @@ Landing provisional estilo Living Paradise, adaptada a Home Paradise.
 - script.js
 - logo-home-paradise.png
 
-Formulario conectado con FormSubmit a talento@homeparadise.com.co.
+## Formulario
+Conectado con FormSubmit hacia talento@homeparadise.com.co.
+La primera vez debes confirmar el correo de activación de FormSubmit.

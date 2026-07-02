@@ -1,21 +1,12 @@
-const menuButton = document.querySelector('.menu-toggle');
+const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav');
-if (menuButton && nav) {
-  menuButton.addEventListener('click', () => {
+if (toggle && nav) {
+  toggle.addEventListener('click', () => {
     const isOpen = nav.classList.toggle('open');
-    menuButton.setAttribute('aria-expanded', String(isOpen));
+    toggle.setAttribute('aria-expanded', String(isOpen));
   });
-  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-    nav.classList.remove('open');
-    menuButton.setAttribute('aria-expanded', 'false');
-  }));
 }
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('is-visible');
-      observer.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.12 });
-document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', () => nav?.classList.remove('open'));
+});
