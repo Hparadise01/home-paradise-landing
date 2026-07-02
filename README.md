@@ -1,6 +1,6 @@
-# Home Paradise Landing V6
+# Home Paradise Landing V6 Final
 
-Landing final provisional para reclutamiento de Ejecutivos Comerciales.
+Landing final para reclutamiento de Ejecutivos Comerciales.
 
 ## Archivos
 - index.html
