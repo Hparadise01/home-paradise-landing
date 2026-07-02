@@ -5,16 +5,11 @@ if (toggle && nav) {
     const open = nav.classList.toggle('open');
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
 }
-
-document.querySelectorAll('.nav a').forEach(link => {
-  link.addEventListener('click', () => nav?.classList.remove('open'));
-});
-
-const observer = new IntersectionObserver((entries) => {
+const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
-    if (entry.isIntersecting) entry.target.classList.add('in');
+    if (entry.isIntersecting) entry.target.classList.add('visible');
   });
-}, { threshold: 0.12 });
-
+}, { threshold: 0.14 });
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));

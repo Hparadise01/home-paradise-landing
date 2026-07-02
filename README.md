@@ -1,4 +1,4 @@
-# Home Paradise Landing V5
+# Home Paradise Landing V6
 
 Landing final provisional para reclutamiento de Ejecutivos Comerciales.
 
@@ -8,8 +8,8 @@ Landing final provisional para reclutamiento de Ejecutivos Comerciales.
 - script.js
 - logo-home-paradise.png
 - assets/images/hero-team.png
+- assets/images/quienes-somos.png
 - assets/images/demo.png
-- assets/images/office.png
 - assets/images/growth.png
 
 Formulario conectado con FormSubmit a talento@homeparadise.com.co.
